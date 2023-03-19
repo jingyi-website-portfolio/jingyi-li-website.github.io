@@ -261,6 +261,8 @@ main {
 
 .about__role {
   margin-top: 1.2em;
+  max-width: 820px;
+
 }
 
 .about__desc {
@@ -280,6 +282,7 @@ main {
 .about .btn--outline {
   margin-right: 1em;
 }
+
 
 .projects__grid {
   max-width: 1100px;
@@ -305,6 +308,73 @@ main {
   margin-top: 1em;
 }
 
+.project__img {
+  margin-top:1em;
+  margin-bottom: 1em;
+  border-radius: 3px;
+  opacity: 0.9;
+  max-width:100%;
+  max-height: 100%;
+}
+
+
+.tag__stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*margin: 1.2em 0;*/
+  margin-top: 1.2em;
+  margin-bottom: 0;
+}
+.tag__stack-item {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: white;
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
+  min-width: 0px;
+  height: 18px;
+  border-radius: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 12px;
+  line-height: 120%;
+  color: rgba(255, 255, 255, 0.804);
+  margin: 0px 4px 0px 0px;
+  margin-bottom: 4px;
+  opacity: 0.7
+}
+
+.tag-webdev {
+  background:#7A5DC7;
+}
+.tag-geodataviz {
+  background:#4169E1;
+}
+.tag-hp {
+  background:#F67280;
+}
+.tag-geodataanalysis {
+  background:#FFA07A;
+}
+.tag-system {
+  background:#835C3B;
+}
+.tag-gis {
+  background:#73A16C;
+}
+.tag-cg {
+  background: #CB6D51;
+}
+.tag-cv {
+  background: #4B5320;
+}
+.tag-design {
+  background: #483C32;
+}
+
 .project__stack {
   display: flex;
   flex-wrap: wrap;
@@ -313,10 +383,38 @@ main {
 }
 
 .project__stack-item {
-  margin: 0.5em;
+
+   font-weight: 500;
+  font-size: 0.8rem;
+  color: white;
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
+  min-width: 0px;
+  height: 18px;
+  border-radius: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 12px;
+  line-height: 120%;
+  color: var(--clr-fg-alt);
+  margin: 0px 1px 0px 0px;
+  /*margin-bottom: 1px;*/
+  opacity: 0.7
+
+
+
+
+
+
+/*  margin: 0.5em;
   font-weight: 500;
   font-size: 0.8rem;
-  color: var(--clr-fg-alt);
+  color: var(--clr-fg-alt);*/
+
+
+
 }
 
 .project .link--icon {
