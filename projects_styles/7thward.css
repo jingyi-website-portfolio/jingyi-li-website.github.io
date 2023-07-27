@@ -24,6 +24,8 @@ body {
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
+  max-width: 60%;
+  margin: auto;
 }
 
 .light {
@@ -262,12 +264,15 @@ main {
 .about__role {
   margin-top: 1.2em;
   max-width: 800px;
+  font-size: 1em;
 
 }
 
 .about__desc {
+  font-family: "Gill Sans", sans-serif;
   font-size: 1rem;
   max-width: 800px;
+  font-weight:normal; ;
 }
 
 .about__desc,
@@ -513,14 +518,38 @@ main {
 .project_title {
   border-style: solid;
   border-color: black;
-  font-size: 3em;
-  margin-bottom: 1em;
+  font-size: 2em;
+  margin-left: -4em;
+  margin-bottom: 0.3em;
 }
+
+
+
 
 .project_video {
   margin-top: 2em;
 }
 
+*{
+  font-weight: revert;
+}
+/*p.project_subtitle {
+    font-size: 1.9em;
+    width: auto;
+    font-weight: bold;
+
+}*/
+
+#subtitle {
+    font-size: 1em;
+    width: auto;
+    font-weight: bold;
+}
+a {
+  font-style: italic;
+  color: blue;
+  text-decoration: underline;
+}
 
 
 
